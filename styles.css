@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+
+}
+
+.content {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  /*height: 100%;*/
+}
+
+.header-content {
+  height: 100%;
+}
+
+.header {
+  height: 25vw;
+  max-height: 150px;
+  width: 100%;
+}
+
+img.udacity-logo {
+  max-height: 100%;
+  width: 20%;
+  float: left;
+}
+
+.big-title {
+  float: left;
+  padding-top: 5%;
+  width: 80%;
+}
+
+@media screen and (max-width: 380px) {
+  .big-title {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 465px) {
+  .big-title {
+    font-size: 36px;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .header-content {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .header-content {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 464px) and (min-width: 381px) {
+  .big-title {
+    font-size: 32px;
+  }
+}
+
+.hero {
+  padding: 1em;
+  max-width: 100%;
+  background-color: teal;
+  color: white;
+}
+
+img.my-picture {
+  display: block;
+  margin: 0 auto 10px;
+  max-width: 100%;
+  border: 2px solid white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.iama {
+  max-width: 100%;
+  color: rgb(150, 150, 150);
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  margin: 0px;
+  font-style: italic;
+}
+
+.my-info {
+  max-width: 100%;
+  font-size: 22px;
+  margin: 0px auto 20px;
+}
+
+.my-info:last-of-type {
+  margin: 0px ;
+}
+
+.my-city {
+  text-align: center;
+  color: rgb(150, 150, 150);
+}
+
+.my-name {
+  font-style: bold;
+  color: white;
+  text-align: center;
+  //color: rgb(150, 150, 150);
+}
+
+.about-me {
+  padding: 1em;
+}
